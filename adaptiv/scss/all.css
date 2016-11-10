@@ -1,0 +1,993 @@
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\000038}}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%
+  /* 2 */ }
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\0000318}}
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\0000331}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\0000350}}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\0000361}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\0000370}}
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\0000379}}
+template,
+[hidden] {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\0000392}}
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects
+  /* 2 */ }
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003102}}
+a:active,
+a:hover {
+  outline-width: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003115}}
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003125}}
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003134}}
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003143}}
+dfn {
+  font-style: italic; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003152}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003161}}
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003170}}
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003179}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003187}}
+sub {
+  bottom: -0.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003191}}
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003202}}
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003210}}
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003222}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em
+  /* 2 */ }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003234}}
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003243}}
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible
+  /* 2 */ }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003257}}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0
+  /* 2 */ }
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003269}}
+optgroup {
+  font-weight: bold; }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003278}}
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003288}}
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003299}}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003310}}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003322}}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003333}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003346}}
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal
+  /* 1 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003359}}
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003368}}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003378}}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003388}}
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003397}}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003406}}
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/vendor\/_normalize\.scss}line{font-family:\00003416}}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit
+  /* 2 */ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000310}}
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  color: #747474; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000316}}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000322}}
+* {
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000326}}
+h1,
+h2,
+h3,
+h4,
+form,
+fieldset,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000341}}
+a {
+  font-size: 14px;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000344}}
+  a:hover {
+    text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000346}}
+  a:focus, a:active {
+    outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000350}}
+img {
+  border: none;
+  vertical-align: top;
+  margin: 0;
+  max-width: 100%;
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000358}}
+.promo .promo-block .promo-btn, .content-info a, .login-form button {
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000366}}
+.promo .promo-block .promo-title, .content-info .info-block-title, .portfo-block h2, .contact h2 {
+  font-size: 16px;
+  color: #4c6071;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000373}}
+.header-top {
+  background: #4c6071; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000377}}
+.header-top-holder {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000382}}
+.site-name {
+  float: left;
+  padding-top: 33px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000391}}
+.menu {
+  float: right;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  background: #9bd16f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\0000397}}
+  .menu .fa-bars {
+    padding-top: 33px;
+    font-size: 22px;
+    color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003104}}
+.header-bottom-holder {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003106}}
+  .header-bottom-holder h1 {
+    padding: 70px 0;
+    font-size: 78px;
+    text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003115}}
+.main-slider {
+  position: relative;
+  background: #e16b5b;
+  padding-top: 65px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003119}}
+  .main-slider .slider-holder {
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003123}}
+  .main-slider ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003129}}
+  .main-slider img {
+    max-width: 100%;
+    height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003136}}
+.slider-case {
+  position: absolute;
+  top: 30%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003141}}
+.main-slider__title {
+  padding: 10px 20px;
+  background: #9bd16f;
+  font-size: 30px;
+  line-height: 77px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003152}}
+.main-slider__description {
+  padding: 10px 15px;
+  background: #fff;
+  font-size: 20px;
+  color: #596f81;
+  text-transform: uppercase;
+  font-weight: 900; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003161}}
+.slide-control {
+  position: absolute;
+  top: 50%;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003165}}
+  .slide-control .control {
+    width: 42px;
+    height: 42px;
+    margin-top: -20px;
+    background: url(../img/slider-arrow.png) no-repeat;
+    text-indent: -9999px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003172}}
+  .slide-control .prev {
+    float: left;
+    margin-left: 30px;
+    background-position: -8px -4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003177}}
+  .slide-control .next {
+    float: right;
+    margin-right: 30px;
+    background-position: -60px -4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003184}}
+.promo {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-top: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003187}}
+  .promo .promo-block {
+    float: left;
+    width: calc(33.3% - 20px);
+    position: relative;
+    margin-left: 30px;
+    padding: 25px 35px;
+    border: 2px solid #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003194}}
+    .promo .promo-block .promo-title {
+      width: calc(100% - 90px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003198}}
+    .promo .promo-block .promo-title:after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      margin-top: 25px;
+      background: #4c6071; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003206}}
+    .promo .promo-block p {
+      margin: 30px 0;
+      line-height: 28px;
+      font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003211}}
+    .promo .promo-block .promo-btn {
+      color: #fff;
+      background: #4c6071; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003217}}
+  .promo .promo-block:first-child {
+    margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003220}}
+  .promo .promo-block::after, .promo .random::after, .promo .taxi::after, .promo .anchor::after {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    display: block;
+    width: 95px;
+    height: 95px;
+    line-height: 95px;
+    font-family: FontAwesome;
+    color: #9bd16f;
+    font-size: 30px;
+    text-align: center;
+    background: #fff;
+    border-left: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003238}}
+.promo .random::after {
+  content: "\f074"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003243}}
+.promo .taxi::after {
+  content: "\f1ba"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003248}}
+.promo .anchor::after {
+  content: "\f13d"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003254}}
+.content-info {
+  margin-top: 100px;
+  padding: 95px 0;
+  background: #f9f9f9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003258}}
+  .content-info .info-holder {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003261}}
+  .content-info .info-img {
+    max-width: 338px;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003265}}
+  .content-info .info-block {
+    width: calc(47% - 169px);
+    margin-top: -343px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003269}}
+  .content-info .info-block-l {
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003272}}
+  .content-info .info-block-r {
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003278}}
+  .content-info p {
+    margin: 30px 0;
+    line-height: 28px;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003283}}
+  .content-info span {
+    padding: 12px;
+    border: 2px solid #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003287}}
+  .content-info span:after {
+    content: "\f178";
+    font-family: FontAwesome;
+    color: #9bd16f;
+    padding-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003293}}
+  .content-info a {
+    color: #4c6071; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003300}}
+.content-portfolio {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-top: 85px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003303}}
+  .content-portfolio .name-portfo {
+    text-align: center;
+    font-size: 48px;
+    color: #4c6071;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003309}}
+  .content-portfolio h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    color: #e16b5b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003317}}
+.portfo-block-wrap {
+  display: table;
+  width: 100%;
+  margin-top: 100px;
+  border-collapse: collapse;
+  border: 2px solid #dddddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003325}}
+.portfo-block-wrap:last-child {
+  border-right: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003329}}
+.portfo-block {
+  display: table-cell;
+  width: 25%;
+  padding: 55px;
+  text-align: center;
+  border-right: 2px solid #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003335}}
+  .portfo-block img {
+    margin-bottom: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003338}}
+  .portfo-block h2 {
+    margin-bottom: 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003342}}
+  .portfo-block span {
+    font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003347}}
+.feedback {
+  background: #9bd16f;
+  margin-top: 100px;
+  padding: 100px 0;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003352}}
+  .feedback .feedback-wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003357}}
+.contact {
+  float: left;
+  max-width: 285px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003360}}
+  .contact h2 {
+    margin-bottom: 20px;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003365}}
+  .contact address {
+    margin-bottom: 25px;
+    font-style: normal;
+    line-height: 28px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003371}}
+  .contact span {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5px;
+    padding: 10px 10px 10px 45px;
+    border: 1px solid #83b859; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003378}}
+  .contact span::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 10px;
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 15px;
+    border-right: 1px solid #83b859; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003391}}
+.contact .phone::before {
+  content: "\f095";
+  padding: 10px 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003396}}
+.contact .mail::before {
+  content: "\f003"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003401}}
+.social a {
+  float: left;
+  display: block;
+  width: 37px;
+  height: 37px;
+  margin-right: 4px;
+  padding-top: 8px;
+  text-align: center;
+  border: 1px solid #83b859; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003411}}
+.social a:hover {
+  background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003414}}
+.social a:hover .fa {
+  color: #9bd16f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003420}}
+.fa {
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003424}}
+.login-form {
+  position: relative;
+  float: right;
+  width: 66%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003428}}
+  .login-form textarea {
+    width: 100%;
+    padding: 20px;
+    background: #9bd16f;
+    border: 1px solid #83b859;
+    border-top: none;
+    color: #fff;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003439}}
+  .login-form button {
+    background: #fff;
+    color: #9bd16f;
+    border: none;
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003452}}
+.input-holder {
+  display: table;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003455}}
+  .input-holder input[type="text"] {
+    display: table-cell;
+    width: 50%;
+    padding: 20px;
+    background: #9bd16f;
+    color: #fff;
+    border: 1px solid #83b859;
+    font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003468}}
+.main-footer {
+  padding: 50px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003470}}
+  .main-footer .copy {
+    display: block;
+    text-align: center;
+    color: #9bd16f; }
+
+@media only screen and (max-width: 1310px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003478}}
+  .slider-case {
+    left: 10%; } }
+@media only screen and (max-width: 1034px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003484}}
+  .header-bottom-holder h1 {
+    font-size: 50px;
+    padding: 30px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003489}}
+  .slider-case {
+    top: -10%; } }
+@media only screen and (max-width: 880px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003495}}
+  .promo {
+    margin: 30px auto 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003499}}
+  .content-info {
+    padding: 30px 0;
+    margin-top: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003504}}
+  .content-info .info-img {
+    width: 100%;
+    margin: 0 auto 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003508}}
+  .content-info .info-block {
+    margin: 0;
+    width: calc(50% - 20px); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003513}}
+  .login-form {
+    width: 60%; } }
+@media only screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003519}}
+  .promo .promo-block {
+    float: none;
+    width: auto;
+    margin: 0 0 20px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003525}}
+  .portfo-block-wrap {
+    width: 0;
+    margin-top: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003531}}
+  .portfo-block {
+    width: 50%;
+    display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003536}}
+  .portfo-block:nth-child(1),
+  .portfo-block:nth-child(2) {
+    border-bottom: 2px solid #ddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003541}}
+  .feedback {
+    margin-top: 30px;
+    padding: 30px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003546}}
+  .contact {
+    float: none;
+    max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003549}}
+    .contact .contact-t {
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003552}}
+    .contact .contact-b {
+      float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003554}}
+      .contact .contact-b span {
+        display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003560}}
+  .login-form {
+    float: none;
+    margin-top: 20px;
+    width: auto; } }
+@media only screen and (max-width: 680px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003568}}
+  .header-bottom-holder h1 {
+    font-size: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003571}}
+  .slider-case {
+    top: -15%;
+    left: 17%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003574}}
+    .slider-case .main-slider__title {
+      font-size: 20px;
+      line-height: 43px;
+      padding: 5px 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003579}}
+    .slider-case .main-slider__description {
+      font-size: 15px;
+      padding: 5px 7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003585}}
+  .info-block-wrap .info-block {
+    float: none;
+    width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003588}}
+    .info-block-wrap .info-block .info-block-title {
+      text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003594}}
+  .info-block-wrap .info-block-r {
+    padding-top: 30px;
+    border-top: 1px dashed #9bd16f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003600}}
+  .content-info p {
+    margin: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003604}}
+  .content-info span {
+    float: right;
+    border: none; } }
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003613}}
+  .contact .contact-t,
+  .contact .contact-b {
+    float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/saits\/UITS\/fe-16-10-murkup4-Hlebodarova\/scss\/all\.scss}line{font-family:\00003618}}
+  .contact .contact-b span {
+    display: table; } }
+
+/*# sourceMappingURL=all.css.map */
